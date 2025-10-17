@@ -10,7 +10,6 @@
 4.  Movie Titles: Many of the movies had sequels or remakes like cindrella and Alice in wonderland, and the most remaked one was cindrella, with many other films sharing the same name, like " love , I love You and Mother " which occured 5 times 
 5.  Cast Members: As with the movie titles the sequels had huge impact on the number of mentions of casting members, especially in Cartoons like tom and jerry which appeared in 80 films, and other looney tunes charachters.
 6.  Directors: same with Cast members, many of the Cartoon movies had the same directors as with old movies as well, where studios had the same director for multiple movies, the top 10 directors for example directed at least 50 movies and more.
-7.  
 
 # Modelling
 1. Data Cleaning: by removing duplicates and Unknown genres or missing values  
@@ -23,4 +22,5 @@
    3. Using pretrained tiny_Bert to train the classifier on the summerized plots 
    
 # Summerization without Spoling
+
 1. Used OLLAMA to Run and host qwen2.5:3b model and using the right prompt to make sure no spoiling is found in the summerized data.
