@@ -82,6 +82,7 @@ def prepare_data(df: pd.DataFrame, top_genres: List[str]) -> pd.DataFrame:
 df = pd.read_csv("/media/shomer/Windows/Users/shomer/data/New folder/genre_project/data/wiki_movie_plots_deduped.csv")
 top_genres = df['Genre'].value_counts().index[:25]
 df = prepare_data(df, top_genres)
+df= df.iloc[:5]
 df['summerized_plot'] = df['Plot'].apply(summarize_plot)
-df.to_csv("/media/shomer/Windows/Users/shomer/data/New folder/genre_project/tiny_bert_training/summerized_plots_without_spoliers.csv")
+df.to_csv("/media/shomer/Windows/Users/shomer/data/New folder/genre_project/tiny_bert_training/git_data/summerized_plots_without_spoliers.csv")
     
